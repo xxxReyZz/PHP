@@ -1,0 +1,15 @@
+.add {
+    text-decoration: none;
+    text-align: right;
+    justify-content: right;
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+    color: red;
+}
+
+.labelRegister {
+    display: block;
+}
