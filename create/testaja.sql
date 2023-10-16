@@ -53,8 +53,8 @@ INSERT INTO `karyawan` (`id`, `nik`, `nama`, `jabatan`, `email`, `gambar`) VALUE
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
-  `username` varchar(32) NOT NULL,
-  `password` varchar(32) NOT NULL,
+  `username` varchar(250) NOT NULL,
+  `password` varchar(250) NOT NULL,
   `email` varchar(150) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
